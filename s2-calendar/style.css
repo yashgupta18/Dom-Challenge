@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+}
+
+.main {
+  display: flex;
+  overflow: scroll;
+  height: 100vh;
+  width: 450px;
+  border: 1px solid black;
+}
+.time {
+  height: 100vh;
+  width: 20%;
+}
+.events {
+  height: 1100px;
+  width: 80%;
+}
+.timeDiv {
+  display: flex;
+  height: calc(1100px / 23);
+  margin: 1px;
+  justify-content: center;
+  align-items: center;
+}
+.eventDiv {
+  position: relative;
+  height: calc(1100px / 23);
+  display: flex;
+  flex-direction: column;
+}

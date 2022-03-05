@@ -1,0 +1,14 @@
+* {
+  box-sizing: border-box;
+}
+
+div .row {
+  height: 30px;
+}
+
+.box {
+  height: 30px;
+  width: 30px;
+  display: inline-block;
+  border: 1px solid black;
+}

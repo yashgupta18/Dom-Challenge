@@ -1,0 +1,42 @@
+.container {
+  width: 300px;
+  height: min-content;
+  background-color: red;
+}
+
+.container2 {
+  box-sizing: border-box;
+  /* box-sizing: content-box; */
+  width: 300px;
+  height: min-content;
+  padding: 10px;
+  border: 10px solid;
+  background-color: green;
+}
+
+.selectors p:first-of-type {
+  color: pink;
+}
+.selectors p:last-of-type {
+  color: blue;
+}
+
+.selectors p:nth-child(even) {
+  background-color: palegreen;
+}
+.selectors p:nth-child(3)::after {
+  color: red;
+  font-size: larger;
+  content: " added with after";
+}
+h1::selection {
+  background: rgb(213, 10, 179);
+  color: white;
+}
+[data-heading3="h3"] {
+  color: orange;
+}
+
+[href$=".pdf"] {
+  color: rgb(213, 213, 68);
+}
